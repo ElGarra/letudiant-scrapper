@@ -170,5 +170,3 @@
 170°: Ecole d'ingénieurs Paoli Tech
 171°: ENSM Le Havre
 172°: ELISA Aerospace Hauts-de-France
-
-.replace(' ', '-', 1).replace(' ', '')

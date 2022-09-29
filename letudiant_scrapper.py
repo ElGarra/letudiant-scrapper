@@ -1,6 +1,5 @@
 import json
 import re
-from turtle import st
 import requests
 from bs4 import BeautifulSoup
 import xlsxwriter
@@ -278,29 +277,27 @@ class LetudiantScrapper():
     def create_excel_database(self):
         pass
 
-
-
-link = "https://www.letudiant.fr/etudes/annuaire-enseignement-superieur/etablissement/etablissement-centralesupelec-cursus-ingenieur-supelec-7696.html#classement-des-ecoles-d-ingenieurs"
-data = requests.get(link)
-html = BeautifulSoup(data.text, "html.parser")
-esk = html.find_all("div", class_="criterion-row tw-flex tw-flex-wrap tw-border-b tw-border-gray-600 tw-text-sm")
-print(len(esk))
-all_elem_list = []
-for elem in esk:
-    elem_list = elem.get_text().split(" ")
-    # print(elem_list)
-    aux_string = ""
-    for char in elem_list:
-        if char != '' and char != '\n' and char != '\n\n':
-            aux_string += char + " "
-            def_string = aux_string.replace('\n', '')
-    def_string_2 = def_string[0:-1]
-    print(def_string_2.split(' '))
+# link = "https://www.letudiant.fr/etudes/annuaire-enseignement-superieur/etablissement/etablissement-centralesupelec-cursus-ingenieur-supelec-7696.html#classement-des-ecoles-d-ingenieurs"
+# data = requests.get(link)
+# html = BeautifulSoup(data.text, "html.parser")
+# esk = html.find_all("div", class_="criterion-row tw-flex tw-flex-wrap tw-border-b tw-border-gray-600 tw-text-sm")
+# print(len(esk))
+# all_elem_list = []
+# for elem in esk:
+#     elem_list = elem.get_text().split(" ")
+#     # print(elem_list)
+#     aux_string = ""
+#     for char in elem_list:
+#         if char != '' and char != '\n' and char != '\n\n':
+#             aux_string += char + " "
+#             def_string = aux_string.replace('\n', '')
+#     def_string_2 = def_string[0:-1]
+#     print(def_string_2.split(' '))
     
-    # print(elem.get_text().split(" "))
-# print(esk[0].get_text().split(" "))
+#     # print(elem.get_text().split(" "))
+# # print(esk[0].get_text().split(" "))
 
-# print(esk[1].get_text())
+# # print(esk[1].get_text())
 
 
 scrapper = LetudiantScrapper()
