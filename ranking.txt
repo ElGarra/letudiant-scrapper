@@ -1,0 +1,174 @@
+1°: Ecole polytechnique
+2°: Télécom Paris
+3°: CentraleSupélec
+4°: Ecole des Ponts ParisTech
+5°: Mines ParisTech
+6°: IMT Atlantique Nantes
+7°: ENSTA Paris
+8°: Mines Nancy
+9°: Centrale Lille
+10°: INSA Lyon
+11°: Centrale Lyon
+12°: Centrale Nantes
+13°: ISAE-SUPAERO
+14°: Arts et Métiers, campus de Paris
+15°: Grenoble INP-Ensimag
+16°: UTC
+17°: Mines Saint-Etienne
+18°: ENSAE ParisTech
+19°: Grenoble INP-Phelma UGA
+20°: Toulouse INP-ENSEEIHT
+21°: Télécom SudParis
+22°: UTT
+23°: Grenoble INP-Ense3
+24°: AgroParisTech - campus de Paris Claude-Bernard
+25°: Centrale Marseille
+26°: ECPM
+27°: ESIEE Paris
+28°: ESILV
+29°: IMT Alès
+30°: INSA Toulouse
+31°: Iteem
+32°: ENSCM
+33°: IMT Nord Europe
+34°: ESPCI Paris - PSL
+35°: ENSEIRB-MATMECA
+36°: CY Tech Cergy
+37°: ECE campus de Paris
+38°: Chimie ParisTech - PSL
+39°: ESIEA campus de Paris
+40°: Grenoble INP-Génie industriel
+41°: ENSTA Bretagne
+42°: ESTP Paris
+43°: ISEP
+44°: UTBM
+45°: Efrei, grande école d'ingénieur
+46°: ENIM
+47°: ISAE-ESTACA
+48°: ESTIA
+49°: IG2I
+50°: IMT Mines Albi
+51°: INSA Rouen Normandie
+52°: Polytech Grenoble
+53°: Polytech Nice Sophia
+54°: CESI Paris-Nanterre
+55°: EEIGM
+56°: ENSEM
+57°: ENSG Nancy
+58°: Toulouse INP-ENSIACET
+59°: EPITA
+60°: Grenoble INP-Esisar
+61°: INSA Rennes
+62°: Polytech Lille
+63°: Télécom Saint-Etienne
+64°: CPE Lyon
+65°: ENAC
+66°: ENSCL
+67°: ENSICAEN
+68°: ENTPE Lyon
+69°: EPF Ecole d'ingénieurs Paris
+70°: ESIGELEC
+71°: ESIPE
+72°: INSA Strasbourg
+73°: Polytech Montpellier
+74°: Polytech Nancy - ex-ESSTIN
+75°: Polytech Sorbonne
+76°: AGROCAMPUS OUEST, campus de Rennes
+77°: ECAM LaSalle, campus de Lyon
+78°: ENSEA
+79°: ENSIC
+80°: Grenoble INP-Pagora
+81°: JUNIA ISEN
+82°: IIA
+83°: EIVP
+84°: ESBS
+85°: JUNIA HEI
+86°: Icam, site de Lille
+87°: ENSTBB
+88°: ISEN Yncréa Ouest campus de Brest
+89°: Montpellier SupAgro
+90°: Polytech Marseille
+91°: Polytech Nantes
+92°: SIGMA Clermont
+93°: Télécom Physique Strasbourg
+94°: EIGSI
+95°: ENGEES
+96°: ENSAI
+97°: ENSCMu
+98°: ENSIIE
+99°: ESME Sudria, campus de Paris
+100°: INSA Centre-Val de Loire, Blois
+101°: ISAE-Supméca
+102°: Polytech Lyon
+103°: Polytech Paris-Saclay
+104°: Sup'Galilée
+105°: Télécom Nancy
+106°: EBI
+107°: ESITC Caen
+108°: ISAE-ENSMA
+109°: Polytech Clermont-Ferrand
+110°: SupOptique
+111°: UniLaSalle, campus de Beauvais
+112°: EIL Côte d'Opale
+113°: ENISE
+114°: ENSAIA
+115°: Toulouse INP-ENSAT
+116°: ENSGSI
+117°: ENSISA
+118°: EOST
+119°: ESIR
+120°: ESIREM
+121°: INSA HDF ingénieurs
+122°: Bordeaux Sciences Agro
+123°: EIDD
+124°: ENSCR
+125°: Ensil-Ensci
+126°: ENSI Poitiers
+127°: ENSCBP
+128°: Polytech Angers
+129°: Polytech Orléans
+130°: Polytech Tours
+131°: FSI
+132°: 3iL ingénieurs Limoges
+133°: AgroSup Dijon
+134°: Toulouse INP-ENIT
+135°: ENSGTI
+136°: ENSMM
+137°: Enssat
+138°: ENSC
+139°: IPSA
+140°: Polytech Annecy-Chambéry
+141°: ENSG - Géomatique
+142°: ENSTIB
+143°: ESEO. Grande école d'ingénieurs généralistes
+144°: ISAT
+145°: ISIFC
+146°: ENSAIT
+147°: ENSIBS
+148°: ISEN Yncréa Méditerranée campus de Toulon
+149°: VetAgro Sup
+150°: ECAM-EPMI
+151°: EiCnam
+152°: ENIB
+153°: ENSEGID
+154°: ENSIM
+155°: ESIAB
+156°: Sup'Biotech
+157°: ESAIP LaSalle
+158°: ESITech
+159°: Oniris cursus ingénieur
+160°: ESCOM Chimie
+161°: ECAM Rennes-Louis-de-Broglie
+162°: ISA-BTP
+163°: ISEL
+164°: SeaTech
+165°: ESA
+166°: ISIS Ingénieurs
+167°: Toulouse INP-ENM
+168°: ESB
+169°: ESIROI
+170°: Ecole d'ingénieurs Paoli Tech
+171°: ENSM Le Havre
+172°: ELISA Aerospace Hauts-de-France
+
+.replace(' ', '-', 1).replace(' ', '')
